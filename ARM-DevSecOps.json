@@ -94,10 +94,9 @@
       "name": "[parameters('appServicePlanName')]",
       "location": "[parameters('location')]",
       "sku": {
-        "name": "S1",
-        "tier": "Standard",
-        "size": "S1",
-        "family": "S",
+        "name": "F1",
+        "tier": "Free",
+        "size": "F1",
         "capacity": 1
       },
       "kind": "linux",
